@@ -41,7 +41,8 @@ class Homepage extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="testimonial ">
+				<div className="testimonial">
+					<h1 className="testimonial_header">Testimonials</h1>
 					<div className="row testimonial_row">
 						<div className="col-md-4">
 							<div className="card testimonial_card">
@@ -56,6 +57,7 @@ class Homepage extends React.Component {
 										needing to ask them! No more sleepless nights searching for gifts to
 										get them.
 									</p>
+									<p className="testimonial_author"> - Alex L.</p>
 								</div>
 							</div>
 						</div>
@@ -73,6 +75,7 @@ class Homepage extends React.Component {
 										stress and now I can finally get meaningful gifts that my friends
 										actually want!
 									</p>
+									<p className="testimonial_author"> - Emily P.</p>
 								</div>
 							</div>
 						</div>
@@ -89,6 +92,7 @@ class Homepage extends React.Component {
 										for friends & family. Not only are you supporting small businesses,
 										but you can get gifts that people actually want!
 									</p>
+									<p className="testimonial_author"> - Sasha J.</p>
 								</div>
 							</div>
 						</div>

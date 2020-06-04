@@ -28,7 +28,7 @@ body {
 // --- Homepage ---
 
 .header {
-	background: linear-gradient(to right bottom, $light-blue, $lightest-blue);
+	background: linear-gradient(to bottom, $light-blue, $lightest-blue);
 	text-align: center;
 	padding: 8rem 0;
 
@@ -60,11 +60,11 @@ body {
 }
 
 .info {
-	background: linear-gradient(to right bottom, $medium-blue, #b193cf);
-	height: 35rem;
+	background: linear-gradient(to right bottom, $light-blue, #b193cf);
+	height: 33rem;
 
 	&_column {
-		margin: 2rem 0;
+		margin: 0.5rem 0;
 	}
 	&_row {
 		width: 80%;
@@ -95,10 +95,20 @@ body {
 }
 
 .testimonial {
-	background: linear-gradient(to right bottom, $light-blue, $lightest-blue);
-	height: 35rem;
-	padding-top: 10rem;
+	background: linear-gradient(to right bottom, #b193cf, white);
+	height: 50rem;
+	padding-top: 8rem;
 
+	&_header {
+		color: white;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 4rem;
+		border-bottom: 1px solid white;
+		padding-bottom: 1rem;
+		width: 50%;
+		text-shadow: 1px 1px 2px white;
+	}
 	&_row {
 		margin: 0 auto;
 		margin-bottom: 2rem;
@@ -113,11 +123,20 @@ body {
 	&_text {
 		font-size: 1rem;
 	}
+
 	&_avatar {
-		width: 6rem;
-		height: 6rem;
+		width: 8rem;
+		height: 8rem;
 		border-radius: 50%;
 		margin: 0 auto;
+	}
+
+	&_author {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		color: $dark-blue;
+		padding-right: 1rem;
 	}
 }
 //--- Navbar ---
@@ -145,6 +164,7 @@ body {
 .navbar_toggler {
 	margin: 0.5rem 0;
 }
+
 // --- Products ---
 .listings {
 	margin: 2rem auto;
